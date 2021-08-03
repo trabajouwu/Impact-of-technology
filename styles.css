@@ -132,20 +132,22 @@ a {
 #main h1::selection,
 #main p::selection,
 #texto p::selection,
+#preguntas p::selection,
 #dispositivo p::selection {
   background-color: rgba(0, 0, 0, 0.5);
   color: rgb(0, 158, 221);
 }
 
 #texto h2::selection,
-#dispositivo h2::selection {
+#dispositivo h2::selection,
+#preguntas h2::selection {
   background-color: rgb(0, 158, 221);
   color: black;
 }
 
 #main p {
   color: rgba(255, 255, 255);
-  font-size: 1.8vw;
+  font-size: 2.5vw;
   margin: 0 5vw;
   padding-top: 8vh;
 }
@@ -157,6 +159,7 @@ a {
 }
 
 #texto h2,
+#preguntas h2,
 #dispositivo h2 {
   text-align: center;
   padding-top: 10vh;
@@ -165,6 +168,7 @@ a {
 }
 
 #texto p,
+#preguntas p,
 #dispositivo p {
   text-align: justify;
   padding: 10vh 5vw;
